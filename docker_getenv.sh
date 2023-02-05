@@ -30,7 +30,7 @@ fi
 # check REGISTRY
 if [ -z "$REGISTRY" ]
 then
-      REGISTRY="roxsross12"
+      REGISTRY="javiergiuga"
 fi
 # check NAME CONTAINER
 if [ -z "$NAME" ]
