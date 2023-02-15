@@ -35,7 +35,7 @@ fi
 # check NAME CONTAINER
 if [ -z "$NAME" ]
 then
-      NAME="$REPONAME-$BRANCH_NAME"
+      NAME="'ms-front'-$BRANCH_NAME"
 fi
 
 # check git user
