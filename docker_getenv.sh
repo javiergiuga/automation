@@ -4,7 +4,7 @@ source ./automation/printTable.sh
 # check version
 if [ -z "$VERSION" ]
       then
-      VERSION=`jq -r '.version' ./package.json`
+      VERSION=`jq -r '.version' ./frontend/package.json`
       
 fi
 
